@@ -1,0 +1,308 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------- Design tokens ---------- */
+:root {
+  --bg: #f6f5f0;
+  --elev: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #efede6;
+  --surface-3: #e6e3da;
+  --border: rgba(20, 24, 33, 0.1);
+  --border-strong: rgba(20, 24, 33, 0.2);
+  --fg: #171b22;
+  --muted: #5a6473;
+  --faint: #646d7b;
+  --accent: #a86b0d;
+  --accent-fill: #e9a93a;
+  --accent-soft: rgba(233, 169, 58, 0.16);
+  --accent-ink: #1d1300;
+  --success: #15803d;
+  --success-soft: rgba(21, 128, 61, 0.14);
+  --danger: #b91c3c;
+  --danger-soft: rgba(185, 28, 60, 0.12);
+  --info: #0f6aa6;
+  --info-soft: rgba(15, 106, 166, 0.12);
+  --ring: rgba(168, 107, 13, 0.55);
+  --shadow: 0 1px 2px rgba(20, 24, 33, 0.06), 0 8px 24px -12px rgba(20, 24, 33, 0.18);
+  --glass: rgba(255, 255, 255, 0.72);
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #0b0e13;
+  --elev: #10141b;
+  --surface: #141922;
+  --surface-2: #1a2029;
+  --surface-3: #212936;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --fg: #e8ecf1;
+  --muted: #98a3b3;
+  --faint: #7b8694;
+  --accent: #f2b84b;
+  --accent-fill: #f2b84b;
+  --accent-soft: rgba(242, 184, 75, 0.14);
+  --accent-ink: #1a1200;
+  --success: #4ade80;
+  --success-soft: rgba(74, 222, 128, 0.14);
+  --danger: #fb7185;
+  --danger-soft: rgba(251, 113, 133, 0.14);
+  --info: #7dd3fc;
+  --info-soft: rgba(125, 211, 252, 0.14);
+  --ring: rgba(242, 184, 75, 0.6);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 32px -16px rgba(0, 0, 0, 0.7);
+  --glass: rgba(20, 25, 34, 0.72);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-elev: var(--elev);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --color-accent-fill: var(--accent-fill);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", Consolas, monospace;
+
+  --shadow-card: var(--shadow);
+  --radius-card: 1rem;
+}
+
+/* ---------- Base ---------- */
+html {
+  font-size: 16px;
+}
+html[data-font="sm"] {
+  font-size: 15px;
+}
+html[data-font="lg"] {
+  font-size: 18px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "cv11", "ss01";
+}
+
+.dark body {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(242, 184, 75, 0.06), transparent 60%),
+    radial-gradient(900px 500px at 110% 10%, rgba(125, 211, 252, 0.05), transparent 60%),
+    var(--bg);
+  background-attachment: fixed;
+}
+
+body:not(.dark body) {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(233, 169, 58, 0.12), transparent 60%),
+    var(--bg);
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+  font-variation-settings: "opsz" 48, "SOFT" 30;
+  letter-spacing: -0.015em;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+::selection {
+  background: var(--accent-soft);
+}
+
+/* Scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+
+/* ---------- Surfaces ---------- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow);
+}
+
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid var(--border);
+}
+
+.hairline {
+  border-color: var(--border);
+}
+
+/* ---------- Math ---------- */
+.katex {
+  font-size: 1.05em;
+}
+.katex-display {
+  margin: 0.75rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+}
+.prose-math p + p {
+  margin-top: 0.75rem;
+}
+.prose-math ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+.prose-math li + li {
+  margin-top: 0.25rem;
+}
+.prose-math strong {
+  color: var(--fg);
+  font-weight: 600;
+}
+.prose-math code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--surface-2);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+/* ---------- Motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+html[data-motion="reduce"] *,
+html[data-motion="reduce"] *::before,
+html[data-motion="reduce"] *::after {
+  animation-duration: 0.01ms !important;
+  transition-duration: 0.01ms !important;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-up {
+  animation: fade-up 260ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+.skeleton {
+  background: linear-gradient(90deg, var(--surface-2) 25%, var(--surface-3) 37%, var(--surface-2) 63%);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s infinite linear;
+  border-radius: 8px;
+}
+
+/* ---------- Print (formula sheet) ---------- */
+@media print {
+  .no-print,
+  aside,
+  body > div > div > header {
+    display: none !important;
+  }
+  main {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .card {
+    box-shadow: none;
+    border-color: #ccc;
+    break-inside: avoid;
+  }
+}
+
+/* Range input styling for the confidence slider */
+input[type="range"].edge-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--surface-3);
+  outline: none;
+}
+input[type="range"].edge-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--accent-fill);
+  border: 2px solid var(--bg);
+  box-shadow: 0 0 0 1px var(--border-strong);
+  cursor: pointer;
+}
+input[type="range"].edge-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--accent-fill);
+  border: 2px solid var(--bg);
+  cursor: pointer;
+}

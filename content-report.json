@@ -1,0 +1,5675 @@
+{
+  "generatedAt": "2026-11-05T23:44:14.699Z",
+  "stats": {
+    "practice": 260,
+    "hard": 76,
+    "checks": 40,
+    "brain": 80,
+    "total": 380,
+    "twoPlus": 363,
+    "byModule": {
+      "1": [
+        4,
+        7,
+        9,
+        5,
+        3
+      ],
+      "2": [
+        4,
+        7,
+        9,
+        5,
+        3
+      ],
+      "3": [
+        4,
+        7,
+        9,
+        5,
+        3
+      ],
+      "4": [
+        4,
+        7,
+        10,
+        6,
+        3
+      ],
+      "5": [
+        4,
+        6,
+        8,
+        5,
+        3
+      ],
+      "6": [
+        3,
+        7,
+        9,
+        6,
+        3
+      ],
+      "7": [
+        3,
+        6,
+        9,
+        5,
+        3
+      ],
+      "8": [
+        4,
+        6,
+        8,
+        4,
+        2
+      ],
+      "9": [
+        3,
+        6,
+        8,
+        4,
+        3
+      ],
+      "10": [
+        2,
+        5,
+        6,
+        3,
+        2
+      ]
+    }
+  },
+  "failures": [],
+  "warnings": [],
+  "outcomes": [
+    {
+      "id": "m1-p01",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 5040,
+      "expected": 5040
+    },
+    {
+      "id": "m1-p01",
+      "method": "formula",
+      "ok": true,
+      "computed": 5040,
+      "expected": 5040
+    },
+    {
+      "id": "m1-p02",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.5981224279835391,
+      "expected": 0.598122427983539
+    },
+    {
+      "id": "m1-p02",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.598128,
+      "expected": 0.598122427983539,
+      "se": 0.0004902763461722378
+    },
+    {
+      "id": "m1-p03",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2600,
+      "expected": 2600
+    },
+    {
+      "id": "m1-p03",
+      "method": "formula",
+      "ok": true,
+      "computed": 2600,
+      "expected": 2600
+    },
+    {
+      "id": "m1-p04",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 105,
+      "expected": 105
+    },
+    {
+      "id": "m1-p04",
+      "method": "formula",
+      "ok": true,
+      "computed": 105,
+      "expected": 105
+    },
+    {
+      "id": "m1-p05",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 66,
+      "expected": 66
+    },
+    {
+      "id": "m1-p05",
+      "method": "formula",
+      "ok": true,
+      "computed": 66,
+      "expected": 66
+    },
+    {
+      "id": "m1-p06",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 720,
+      "expected": 720
+    },
+    {
+      "id": "m1-p06",
+      "method": "formula",
+      "ok": true,
+      "computed": 720,
+      "expected": 720
+    },
+    {
+      "id": "m1-p07",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 56,
+      "expected": 56
+    },
+    {
+      "id": "m1-p07",
+      "method": "formula",
+      "ok": true,
+      "computed": 56,
+      "expected": 56
+    },
+    {
+      "id": "m1-p08",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 286,
+      "expected": 286
+    },
+    {
+      "id": "m1-p08",
+      "method": "formula",
+      "ok": true,
+      "computed": 286,
+      "expected": 286
+    },
+    {
+      "id": "m1-p09",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.8409090909090909,
+      "expected": 0.8409090909090909
+    },
+    {
+      "id": "m1-p09",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.840885,
+      "expected": 0.8409090909090909,
+      "se": 0.0003657832920938298
+    },
+    {
+      "id": "m1-p10",
+      "method": "dp",
+      "ok": true,
+      "computed": 126,
+      "expected": 126
+    },
+    {
+      "id": "m1-p10",
+      "method": "formula",
+      "ok": true,
+      "computed": 126,
+      "expected": 126
+    },
+    {
+      "id": "m1-p11",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 240,
+      "expected": 240
+    },
+    {
+      "id": "m1-p11",
+      "method": "formula",
+      "ok": true,
+      "computed": 240,
+      "expected": 240
+    },
+    {
+      "id": "m1-p12",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1440,
+      "expected": 1440
+    },
+    {
+      "id": "m1-p12",
+      "method": "formula",
+      "ok": true,
+      "computed": 1440,
+      "expected": 1440
+    },
+    {
+      "id": "m1-p13",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 120,
+      "expected": 120
+    },
+    {
+      "id": "m1-p13",
+      "method": "formula",
+      "ok": true,
+      "computed": 120,
+      "expected": 120
+    },
+    {
+      "id": "m1-p14",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.0974,
+      "expected": 0.0974
+    },
+    {
+      "id": "m1-p14",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.0974,
+      "expected": 0.0974
+    },
+    {
+      "id": "m1-p15",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.49684663584620903,
+      "expected": 0.49684663584620903
+    },
+    {
+      "id": "m1-p15",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.496966,
+      "expected": 0.49684663584620903,
+      "se": 0.0004999907947592636
+    },
+    {
+      "id": "m1-p16",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.36666666666666664,
+      "expected": 0.36666666666666664
+    },
+    {
+      "id": "m1-p16",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.3666666666666667,
+      "expected": 0.36666666666666664
+    },
+    {
+      "id": "m1-p17",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.2834008097165992,
+      "expected": 0.2834008097165992
+    },
+    {
+      "id": "m1-p17",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.2834008097165992,
+      "expected": 0.2834008097165992
+    },
+    {
+      "id": "m1-p18",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.6082251082251082,
+      "expected": 0.6082251082251082
+    },
+    {
+      "id": "m1-p18",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.6082251082251082,
+      "expected": 0.6082251082251082
+    },
+    {
+      "id": "m1-p19",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 945,
+      "expected": 945
+    },
+    {
+      "id": "m1-p19",
+      "method": "formula",
+      "ok": true,
+      "computed": 945,
+      "expected": 945
+    },
+    {
+      "id": "m1-p20",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 360,
+      "expected": 360
+    },
+    {
+      "id": "m1-p20",
+      "method": "formula",
+      "ok": true,
+      "computed": 360,
+      "expected": 360
+    },
+    {
+      "id": "m1-p21",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 161,
+      "expected": 161
+    },
+    {
+      "id": "m1-p21",
+      "method": "formula",
+      "ok": true,
+      "computed": 161,
+      "expected": 161
+    },
+    {
+      "id": "m1-p22",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.380859375,
+      "expected": 0.380859375
+    },
+    {
+      "id": "m1-p22",
+      "method": "dp",
+      "ok": true,
+      "computed": 0.380859375,
+      "expected": 0.380859375
+    },
+    {
+      "id": "m1-p23",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.18333333333333332,
+      "expected": 0.18333333333333332
+    },
+    {
+      "id": "m1-p23",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.18333333333333332,
+      "expected": 0.18333333333333332
+    },
+    {
+      "id": "m1-p24",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 4200,
+      "expected": 4200
+    },
+    {
+      "id": "m1-p24",
+      "method": "formula",
+      "ok": true,
+      "computed": 4200,
+      "expected": 4200
+    },
+    {
+      "id": "m1-p25",
+      "method": "dp",
+      "ok": true,
+      "computed": 262,
+      "expected": 262
+    },
+    {
+      "id": "m1-p25",
+      "method": "formula",
+      "ok": true,
+      "computed": 262,
+      "expected": 262
+    },
+    {
+      "id": "m1-p26",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.34285714285714286,
+      "expected": 0.34285714285714286
+    },
+    {
+      "id": "m1-p26",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.34285714285714286,
+      "expected": 0.34285714285714286
+    },
+    {
+      "id": "m1-p27",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.3333333333333333,
+      "expected": 0.3333333333333333
+    },
+    {
+      "id": "m1-p27",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.3333333333333333,
+      "expected": 0.3333333333333333
+    },
+    {
+      "id": "m1-p28",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.14285714285714285,
+      "expected": 0.14285714285714285
+    },
+    {
+      "id": "m1-p28",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.14285714285714285,
+      "expected": 0.14285714285714285
+    },
+    {
+      "id": "m1-lc1",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 120,
+      "expected": 120
+    },
+    {
+      "id": "m1-lc1",
+      "method": "formula",
+      "ok": true,
+      "computed": 120,
+      "expected": 120
+    },
+    {
+      "id": "m1-lc2",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 21,
+      "expected": 21
+    },
+    {
+      "id": "m1-lc2",
+      "method": "formula",
+      "ok": true,
+      "computed": 21,
+      "expected": 21
+    },
+    {
+      "id": "m1-lc3",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.9375,
+      "expected": 0.9375
+    },
+    {
+      "id": "m1-lc3",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.9375,
+      "expected": 0.9375
+    },
+    {
+      "id": "m1-lc4",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 28,
+      "expected": 28
+    },
+    {
+      "id": "m1-lc4",
+      "method": "formula",
+      "ok": true,
+      "computed": 28,
+      "expected": 28
+    },
+    {
+      "id": "m2-p01",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.2777777777777778,
+      "expected": 0.2777777777777778
+    },
+    {
+      "id": "m2-p01",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.277477,
+      "expected": 0.2777777777777778,
+      "se": 0.0003166097870178684
+    },
+    {
+      "id": "m2-p02",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.0625,
+      "expected": 0.0625
+    },
+    {
+      "id": "m2-p02",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.0625,
+      "expected": 0.0625
+    },
+    {
+      "id": "m2-p03",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.4230769230769231,
+      "expected": 0.4230769230769231
+    },
+    {
+      "id": "m2-p03",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.42307692307692313,
+      "expected": 0.4230769230769231
+    },
+    {
+      "id": "m2-p04",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.5,
+      "expected": 0.5
+    },
+    {
+      "id": "m2-p04",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.500088,
+      "expected": 0.5,
+      "se": 0.0004999999922559999
+    },
+    {
+      "id": "m2-p05",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.08333333333333333,
+      "expected": 0.08333333333333333
+    },
+    {
+      "id": "m2-p05",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.083401,
+      "expected": 0.08333333333333333,
+      "se": 0.00012364891685655803
+    },
+    {
+      "id": "m2-p06",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.5833333333333334,
+      "expected": 0.5833333333333334
+    },
+    {
+      "id": "m2-p06",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.5833333333333333,
+      "expected": 0.5833333333333334
+    },
+    {
+      "id": "m2-p07",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.11574074074074074,
+      "expected": 0.11574074074074074
+    },
+    {
+      "id": "m2-p07",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.11574074074074076,
+      "expected": 0.11574074074074074
+    },
+    {
+      "id": "m2-p08",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.4212962962962963,
+      "expected": 0.42129629629629617
+    },
+    {
+      "id": "m2-p08",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.421384,
+      "expected": 0.42129629629629617,
+      "se": 0.0004937808466759317
+    },
+    {
+      "id": "m2-p09",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.29411764705882354,
+      "expected": 0.29411764705882354
+    },
+    {
+      "id": "m2-p09",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.294125,
+      "expected": 0.29411764705882354,
+      "se": 0.00032219208895859
+    },
+    {
+      "id": "m2-p10",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.026666666666666672,
+      "expected": 0.026666666666666672
+    },
+    {
+      "id": "m2-p10",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.026666666666666672,
+      "expected": 0.026666666666666672
+    },
+    {
+      "id": "m2-p11",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.2,
+      "expected": 0.2
+    },
+    {
+      "id": "m2-p11",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.1994875,
+      "expected": 0.2,
+      "se": 0.0002825705552103315
+    },
+    {
+      "id": "m2-p12",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.09259259259259259,
+      "expected": 0.09259259259259259
+    },
+    {
+      "id": "m2-p12",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.09259259259259259,
+      "expected": 0.09259259259259259
+    },
+    {
+      "id": "m2-p13",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.2847222222222222,
+      "expected": 0.2847222222222223
+    },
+    {
+      "id": "m2-p13",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.2847222222222222,
+      "expected": 0.2847222222222223
+    },
+    {
+      "id": "m2-p14",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.3125,
+      "expected": 0.3125
+    },
+    {
+      "id": "m2-p14",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0.3125,
+      "expected": 0.3125
+    },
+    {
+      "id": "m2-p15",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m2-p15",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m2-p16",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m2-p16",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m2-p17",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.6428571428571429,
+      "expected": 0.6428571428571429
+    },
+    {
+      "id": "m2-p17",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.643062,
+      "expected": 0.6428571428571429,
+      "se": 0.0004790962994597224
+    },
+    {
+      "id": "m2-p18",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.09523809523809523,
+      "expected": 0.09523809523809523
+    },
+    {
+      "id": "m2-p18",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.0953795,
+      "expected": 0.09523809523809523,
+      "se": 0.00014686920284708263
+    },
+    {
+      "id": "m2-p19",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.4166666666666667,
+      "expected": 0.4166666666666667
+    },
+    {
+      "id": "m2-p19",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.416506,
+      "expected": 0.4166666666666667,
+      "se": 0.0004929794640388177
+    },
+    {
+      "id": "m2-p20",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.36,
+      "expected": 0.36
+    },
+    {
+      "id": "m2-p20",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.36000000000000903,
+      "expected": 0.36
+    },
+    {
+      "id": "m2-p20",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.3599395,
+      "expected": 0.36,
+      "se": 0.0003393987745556472
+    },
+    {
+      "id": "m2-p21",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.1388888888888889,
+      "expected": 0.13888888888888856
+    },
+    {
+      "id": "m2-p21",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.1388888888888889,
+      "expected": 0.13888888888888856
+    },
+    {
+      "id": "m2-p22",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.5,
+      "expected": 0.5
+    },
+    {
+      "id": "m2-p22",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.500243,
+      "expected": 0.5,
+      "se": 0.0004999999409509965
+    },
+    {
+      "id": "m2-p23",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.5714285714285714,
+      "expected": 0.5714285714285714
+    },
+    {
+      "id": "m2-p23",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.571402,
+      "expected": 0.5714285714285714,
+      "se": 0.0004948754938325396
+    },
+    {
+      "id": "m2-p24",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.4305555555555556,
+      "expected": 0.4305555555555556
+    },
+    {
+      "id": "m2-p24",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.4305555555555556,
+      "expected": 0.4305555555555556
+    },
+    {
+      "id": "m2-p24",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.430694,
+      "expected": 0.4305555555555556,
+      "se": 0.0003501404563628716
+    },
+    {
+      "id": "m2-p25",
+      "method": "formula",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m2-p25",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m2-p26",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.3671875,
+      "expected": 0.3671875
+    },
+    {
+      "id": "m2-p26",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0.3671875,
+      "expected": 0.3671875
+    },
+    {
+      "id": "m2-p27",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m2-p27",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m2-p28",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.38629436111980714,
+      "expected": 0.3862943611198906
+    },
+    {
+      "id": "m2-p28",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.386172,
+      "expected": 0.3862943611198906,
+      "se": 0.00034426965188351995
+    },
+    {
+      "id": "m2-lc1",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m2-lc1",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m2-lc2",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.4444444444444444,
+      "expected": 0.4444444444444444
+    },
+    {
+      "id": "m2-lc2",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.4444444444444444,
+      "expected": 0.4444444444444444
+    },
+    {
+      "id": "m2-lc3",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.3333333333333333,
+      "expected": 0.3333333333333333
+    },
+    {
+      "id": "m2-lc3",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.333779,
+      "expected": 0.3333333333333333,
+      "se": 0.0004715618508308322
+    },
+    {
+      "id": "m2-lc4",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.51,
+      "expected": 0.51
+    },
+    {
+      "id": "m2-lc4",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.510767,
+      "expected": 0.51,
+      "se": 0.0004998840582685149
+    },
+    {
+      "id": "m3-p01",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.2,
+      "expected": 0.2
+    },
+    {
+      "id": "m3-p01",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.19999,
+      "expected": 0.2,
+      "se": 0.00028283740903565076
+    },
+    {
+      "id": "m3-p02",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.3333333333333333,
+      "expected": 0.3333333333333333
+    },
+    {
+      "id": "m3-p02",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.333251,
+      "expected": 0.3333333333333333,
+      "se": 0.0004713754034726462
+    },
+    {
+      "id": "m3-p03",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.23529411764705882,
+      "expected": 0.23529411764705882
+    },
+    {
+      "id": "m3-p03",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.23549933333333334,
+      "expected": 0.23529411764705882,
+      "se": 0.0003464480695408658
+    },
+    {
+      "id": "m3-p04",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.6000000000000001,
+      "expected": 0.6
+    },
+    {
+      "id": "m3-p04",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.600087,
+      "expected": 0.6,
+      "se": 0.0004898801817087521
+    },
+    {
+      "id": "m3-p05",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.030303030303030304,
+      "expected": 0.030303030303030304
+    },
+    {
+      "id": "m3-p05",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.030303030303030307,
+      "expected": 0.030303030303030304
+    },
+    {
+      "id": "m3-p06",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.19507186858316225,
+      "expected": 0.19507186858316222
+    },
+    {
+      "id": "m3-p06",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.1952375,
+      "expected": 0.19507186858316222,
+      "se": 0.0003133686114164815
+    },
+    {
+      "id": "m3-p07",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.5714285714285715,
+      "expected": 0.5714285714285715
+    },
+    {
+      "id": "m3-p07",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.571598,
+      "expected": 0.5714285714285715,
+      "se": 0.0004948471747883381
+    },
+    {
+      "id": "m3-p08",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.3333333333333333,
+      "expected": 0.3333333333333333
+    },
+    {
+      "id": "m3-p08",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.333556,
+      "expected": 0.3333333333333333,
+      "se": 0.0004714831861943753
+    },
+    {
+      "id": "m3-p09",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.33333333333333337,
+      "expected": 0.3333333333333333
+    },
+    {
+      "id": "m3-p09",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.3339,
+      "expected": 0.3333333333333333,
+      "se": 0.00047160448471150057
+    },
+    {
+      "id": "m3-p10",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.6666666666666667,
+      "expected": 0.6666666666666666
+    },
+    {
+      "id": "m3-p10",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.666672,
+      "expected": 0.6666666666666666,
+      "se": 0.0004714026351390072
+    },
+    {
+      "id": "m3-p11",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.041899441340782134,
+      "expected": 0.04189944134078212
+    },
+    {
+      "id": "m3-p11",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.04194242857142857,
+      "expected": 0.04189944134078212,
+      "se": 0.00007576586232500302
+    },
+    {
+      "id": "m3-p12",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.5925925925925926,
+      "expected": 0.5925925925925927
+    },
+    {
+      "id": "m3-p12",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.593385,
+      "expected": 0.5925925925925927,
+      "se": 0.0007766582932264999
+    },
+    {
+      "id": "m3-p13",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m3-p13",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m3-p14",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.6428571428571429,
+      "expected": 0.6428571428571429
+    },
+    {
+      "id": "m3-p14",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.642639,
+      "expected": 0.6428571428571429,
+      "se": 0.0004792224073214858
+    },
+    {
+      "id": "m3-p15",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m3-p15",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m3-p16",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.5,
+      "expected": 0.5
+    },
+    {
+      "id": "m3-p16",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.50014,
+      "expected": 0.5,
+      "se": 0.0004999999803999996
+    },
+    {
+      "id": "m3-p17",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.5714285714285715,
+      "expected": 0.5714285714285714
+    },
+    {
+      "id": "m3-p17",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.571886,
+      "expected": 0.5714285714285714,
+      "se": 0.0004948054193357223
+    },
+    {
+      "id": "m3-p18",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.36,
+      "expected": 0.36
+    },
+    {
+      "id": "m3-p18",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.359929,
+      "expected": 0.36,
+      "se": 0.00047997928596867594
+    },
+    {
+      "id": "m3-p19",
+      "method": "formula",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m3-p19",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m3-p20",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.42857142857142844,
+      "expected": 0.4285714285714286
+    },
+    {
+      "id": "m3-p20",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.428116,
+      "expected": 0.4285714285714286,
+      "se": 0.0004948057098942978
+    },
+    {
+      "id": "m3-p21",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.39999999999999997,
+      "expected": 0.4
+    },
+    {
+      "id": "m3-p21",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.399403,
+      "expected": 0.4,
+      "se": 0.000489775707432494
+    },
+    {
+      "id": "m3-p22",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.5714285714285715,
+      "expected": 0.5714285714285715
+    },
+    {
+      "id": "m3-p22",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.571518,
+      "expected": 0.5714285714285715,
+      "se": 0.0004948587431540439
+    },
+    {
+      "id": "m3-p23",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.48936170212765956,
+      "expected": 0.48936170212765956
+    },
+    {
+      "id": "m3-p23",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.489119,
+      "expected": 0.48936170212765956,
+      "se": 0.0004998815898180288
+    },
+    {
+      "id": "m3-p24",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.5,
+      "expected": 0.5
+    },
+    {
+      "id": "m3-p24",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.500599,
+      "expected": 0.5,
+      "se": 0.0004999996411988712
+    },
+    {
+      "id": "m3-p25",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m3-p25",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m3-p26",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.7641509433962264,
+      "expected": 0.7641509433962265
+    },
+    {
+      "id": "m3-p26",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.76442,
+      "expected": 0.7641509433962265,
+      "se": 0.0007747732218742032
+    },
+    {
+      "id": "m3-p27",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.5,
+      "expected": 0.5
+    },
+    {
+      "id": "m3-p27",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.500721,
+      "expected": 0.5,
+      "se": 0.0004999994801587297
+    },
+    {
+      "id": "m3-p28",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.5555555555555555,
+      "expected": 0.5555555555555556
+    },
+    {
+      "id": "m3-p28",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.556066,
+      "expected": 0.5555555555555556,
+      "se": 0.000496846660091421
+    },
+    {
+      "id": "m3-lc1",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.2,
+      "expected": 0.2
+    },
+    {
+      "id": "m3-lc1",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.2001305,
+      "expected": 0.2,
+      "se": 0.00028291189703664814
+    },
+    {
+      "id": "m3-lc2",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.08333333333333334,
+      "expected": 0.08333333333333333
+    },
+    {
+      "id": "m3-lc2",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.08340644444444445,
+      "expected": 0.08333333333333333,
+      "se": 0.00013034126955341357
+    },
+    {
+      "id": "m3-lc3",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.34999999999999987,
+      "expected": 0.35000000000000003
+    },
+    {
+      "id": "m3-lc3",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.350792,
+      "expected": 0.35000000000000003,
+      "se": 0.00047721795097837634
+    },
+    {
+      "id": "m3-lc4",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m3-lc4",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m4-p01",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.725,
+      "expected": 0.725
+    },
+    {
+      "id": "m4-p01",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.725,
+      "expected": 0.725
+    },
+    {
+      "id": "m4-p02",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 4.5,
+      "expected": 4.5
+    },
+    {
+      "id": "m4-p02",
+      "method": "simulation",
+      "ok": true,
+      "computed": 4.502115,
+      "expected": 4.5,
+      "se": 0.003597018977816909
+    },
+    {
+      "id": "m4-p03",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 14,
+      "expected": 14
+    },
+    {
+      "id": "m4-p03",
+      "method": "simulation",
+      "ok": true,
+      "computed": 13.995896666666667,
+      "expected": 14,
+      "se": 0.006233188900997508
+    },
+    {
+      "id": "m4-p04",
+      "method": "recursion",
+      "ok": true,
+      "computed": 4.999999999999671,
+      "expected": 5
+    },
+    {
+      "id": "m4-p04",
+      "method": "simulation",
+      "ok": true,
+      "computed": 4.994607,
+      "expected": 5,
+      "se": 0.004471537086455953
+    },
+    {
+      "id": "m4-p05",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1.6384,
+      "expected": 1.6384000000000003
+    },
+    {
+      "id": "m4-p05",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1.6376666666666666,
+      "expected": 1.6384000000000003,
+      "se": 0.0013050600951112759
+    },
+    {
+      "id": "m4-p06",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m4-p06",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1.000114,
+      "expected": 1,
+      "se": 0.0009442160700835376
+    },
+    {
+      "id": "m4-p07",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 3.1064814814814814,
+      "expected": 3.106481481481481
+    },
+    {
+      "id": "m4-p07",
+      "method": "simulation",
+      "ok": true,
+      "computed": 3.10624,
+      "expected": 3.106481481481481,
+      "se": 0.0012173008334471435
+    },
+    {
+      "id": "m4-p08",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2.25,
+      "expected": 2.25
+    },
+    {
+      "id": "m4-p08",
+      "method": "simulation",
+      "ok": true,
+      "computed": 2.2505633333333335,
+      "expected": 2.25,
+      "se": 0.0023691733316746825
+    },
+    {
+      "id": "m4-p09",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 4.472222222222222,
+      "expected": 4.472222222222222
+    },
+    {
+      "id": "m4-p09",
+      "method": "simulation",
+      "ok": true,
+      "computed": 4.469796666666666,
+      "expected": 4.472222222222222,
+      "se": 0.00256368295751047
+    },
+    {
+      "id": "m4-p10",
+      "method": "formula",
+      "ok": true,
+      "computed": 43.333333333333336,
+      "expected": 43.333333333333336
+    },
+    {
+      "id": "m4-p10",
+      "method": "simulation",
+      "ok": true,
+      "computed": 43.336367207838684,
+      "expected": 43.333333333333336,
+      "se": 0.0028182285230924768
+    },
+    {
+      "id": "m4-p11",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m4-p11",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m4-p12",
+      "method": "recursion",
+      "ok": true,
+      "computed": 14.7,
+      "expected": 14.7
+    },
+    {
+      "id": "m4-p12",
+      "method": "simulation",
+      "ok": true,
+      "computed": 14.706603333333334,
+      "expected": 14.7,
+      "se": 0.01143030694581377
+    },
+    {
+      "id": "m4-p13",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 5.096153846153846,
+      "expected": 5.096153846153846
+    },
+    {
+      "id": "m4-p13",
+      "method": "simulation",
+      "ok": true,
+      "computed": 5.097791,
+      "expected": 5.096153846153846,
+      "se": 0.005796009827486407
+    },
+    {
+      "id": "m4-p14",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 4,
+      "expected": 4
+    },
+    {
+      "id": "m4-p14",
+      "method": "simulation",
+      "ok": true,
+      "computed": 3.9947333333333335,
+      "expected": 4,
+      "se": 0.00353616816886846
+    },
+    {
+      "id": "m4-p15",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 5.619999999999986,
+      "expected": 5.619999999999999
+    },
+    {
+      "id": "m4-p15",
+      "method": "simulation",
+      "ok": true,
+      "computed": 5.621486666666667,
+      "expected": 5.619999999999999,
+      "se": 0.0033493354182362583
+    },
+    {
+      "id": "m4-p16",
+      "method": "recursion",
+      "ok": true,
+      "computed": 12.238528138528139,
+      "expected": 12.238528138528139
+    },
+    {
+      "id": "m4-p16",
+      "method": "simulation",
+      "ok": true,
+      "computed": 12.239723333333334,
+      "expected": 12.238528138528139,
+      "se": 0.005203762332343633
+    },
+    {
+      "id": "m4-p17",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 4.958333333333333,
+      "expected": 4.958333333333333
+    },
+    {
+      "id": "m4-p17",
+      "method": "simulation",
+      "ok": true,
+      "computed": 4.958826666666667,
+      "expected": 4.958333333333333,
+      "se": 0.0020891078026188483
+    },
+    {
+      "id": "m4-p18",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.375,
+      "expected": 0.375
+    },
+    {
+      "id": "m4-p18",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.3750006015819104,
+      "expected": 0.375,
+      "se": 0.0001613342959042256
+    },
+    {
+      "id": "m4-p19",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.6666666666666667,
+      "expected": 0.6666666666666666
+    },
+    {
+      "id": "m4-p19",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.6663577850807586,
+      "expected": 0.6666666666666666,
+      "se": 0.00017828195435250397
+    },
+    {
+      "id": "m4-p20",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2.666666666666667,
+      "expected": 2.6666666666666665
+    },
+    {
+      "id": "m4-p20",
+      "method": "simulation",
+      "ok": true,
+      "computed": 2.66738,
+      "expected": 2.6666666666666665,
+      "se": 0.00227674519308205
+    },
+    {
+      "id": "m4-p21",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m4-p21",
+      "method": "formula",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m4-p22",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2.717857142857143,
+      "expected": 2.7178571428571425
+    },
+    {
+      "id": "m4-p22",
+      "method": "simulation",
+      "ok": true,
+      "computed": 2.717973333333333,
+      "expected": 2.7178571428571425,
+      "se": 0.0019957240061543443
+    },
+    {
+      "id": "m4-p23",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 5.555555555555555,
+      "expected": 5.555555555555555
+    },
+    {
+      "id": "m4-p23",
+      "method": "simulation",
+      "ok": true,
+      "computed": 5.5555666666666665,
+      "expected": 5.555555555555555,
+      "se": 0.0028669528997926743
+    },
+    {
+      "id": "m4-p24",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 3.7746913580246915,
+      "expected": 3.7746913580246915
+    },
+    {
+      "id": "m4-p24",
+      "method": "formula",
+      "ok": true,
+      "computed": 3.7746913580246906,
+      "expected": 3.7746913580246915
+    },
+    {
+      "id": "m4-p24",
+      "method": "simulation",
+      "ok": true,
+      "computed": 3.7713533333333333,
+      "expected": 3.7746913580246915,
+      "se": 0.002257004432001425
+    },
+    {
+      "id": "m4-p25",
+      "method": "recursion",
+      "ok": true,
+      "computed": 7.299999999999569,
+      "expected": 7.3
+    },
+    {
+      "id": "m4-p25",
+      "method": "simulation",
+      "ok": true,
+      "computed": 7.30473,
+      "expected": 7.3,
+      "se": 0.006955364207156947
+    },
+    {
+      "id": "m4-p26",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2.25,
+      "expected": 2.25
+    },
+    {
+      "id": "m4-p26",
+      "method": "simulation",
+      "ok": true,
+      "computed": 2.2523866666666668,
+      "expected": 2.25,
+      "se": 0.002372767467997061
+    },
+    {
+      "id": "m4-p27",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2.9166666666666665,
+      "expected": 2.9166666666666665
+    },
+    {
+      "id": "m4-p27",
+      "method": "simulation",
+      "ok": true,
+      "computed": 2.9161366666666666,
+      "expected": 2.9166666666666665,
+      "se": 0.002449478589406931
+    },
+    {
+      "id": "m4-p28",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.8333333333333334,
+      "expected": 0.8333333333333334
+    },
+    {
+      "id": "m4-p28",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.8336169701964796,
+      "expected": 0.8333333333333334,
+      "se": 0.0002569590033834717
+    },
+    {
+      "id": "m4-p29",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2.592857142857143,
+      "expected": 2.5928571428571425
+    },
+    {
+      "id": "m4-p29",
+      "method": "simulation",
+      "ok": true,
+      "computed": 2.5917,
+      "expected": 2.5928571428571425,
+      "se": 0.0018963629897487692
+    },
+    {
+      "id": "m4-p30",
+      "method": "recursion",
+      "ok": true,
+      "computed": 5.999999999999999,
+      "expected": 6
+    },
+    {
+      "id": "m4-p30",
+      "method": "simulation",
+      "ok": true,
+      "computed": 5.998937,
+      "expected": 6,
+      "se": 0.0024490250856271365
+    },
+    {
+      "id": "m4-lc1",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2.9999999999999876,
+      "expected": 3
+    },
+    {
+      "id": "m4-lc1",
+      "method": "simulation",
+      "ok": true,
+      "computed": 3.00541,
+      "expected": 3,
+      "se": 0.0026501786513575105
+    },
+    {
+      "id": "m4-lc2",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m4-lc2",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.997388,
+      "expected": 1,
+      "se": 0.0009992182831874124
+    },
+    {
+      "id": "m4-lc3",
+      "method": "formula",
+      "ok": true,
+      "computed": 1.8,
+      "expected": 1.8
+    },
+    {
+      "id": "m4-lc3",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1.80208,
+      "expected": 1.8,
+      "se": 0.0013671474848506045
+    },
+    {
+      "id": "m4-lc4",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.25,
+      "expected": 0.25
+    },
+    {
+      "id": "m4-lc4",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.24979827478691166,
+      "expected": 0.25,
+      "se": 0.00019369961494276587
+    },
+    {
+      "id": "m5-p01",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2.916666666666666,
+      "expected": 2.9166666666666665
+    },
+    {
+      "id": "m5-p01",
+      "method": "formula",
+      "ok": true,
+      "computed": 2.9166666666666665,
+      "expected": 2.9166666666666665
+    },
+    {
+      "id": "m5-p02",
+      "method": "formula",
+      "ok": true,
+      "computed": 21,
+      "expected": 21
+    },
+    {
+      "id": "m5-p02",
+      "method": "simulation",
+      "ok": true,
+      "computed": 21.01104,
+      "expected": 21,
+      "se": 0.01833511707403037
+    },
+    {
+      "id": "m5-p03",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 17.078251276599328,
+      "expected": 17.07825127659933
+    },
+    {
+      "id": "m5-p03",
+      "method": "formula",
+      "ok": true,
+      "computed": 17.078251276599328,
+      "expected": 17.07825127659933
+    },
+    {
+      "id": "m5-p04",
+      "method": "formula",
+      "ok": true,
+      "computed": 9.1,
+      "expected": 9.1
+    },
+    {
+      "id": "m5-p04",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 9.099999999999994,
+      "expected": 9.1
+    },
+    {
+      "id": "m5-p04",
+      "method": "simulation",
+      "ok": true,
+      "computed": 9.084838,
+      "expected": 9.1,
+      "se": 0.01270890225447328
+    },
+    {
+      "id": "m5-p05",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2.916666666666668,
+      "expected": 2.9166666666666665
+    },
+    {
+      "id": "m5-p05",
+      "method": "formula",
+      "ok": true,
+      "computed": 2.9166666666666665,
+      "expected": 2.9166666666666665
+    },
+    {
+      "id": "m5-p06",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m5-p06",
+      "method": "formula",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m5-p07",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.2541218399999999,
+      "expected": 0.2541218399999999
+    },
+    {
+      "id": "m5-p07",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.2541218399999997,
+      "expected": 0.2541218399999999
+    },
+    {
+      "id": "m5-p07",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.25392133333333333,
+      "expected": 0.2541218399999999,
+      "se": 0.0003553826949562547
+    },
+    {
+      "id": "m5-p08",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.2641900364148799,
+      "expected": 0.2641900364148799
+    },
+    {
+      "id": "m5-p08",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.2641900364148791,
+      "expected": 0.2641900364148799
+    },
+    {
+      "id": "m5-p08",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.264405,
+      "expected": 0.2641900364148799,
+      "se": 0.00031184531099168384
+    },
+    {
+      "id": "m5-p09",
+      "method": "formula",
+      "ok": true,
+      "computed": 6.666666666666667,
+      "expected": 6.666666666666667
+    },
+    {
+      "id": "m5-p09",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 6.666666666666662,
+      "expected": 6.666666666666667
+    },
+    {
+      "id": "m5-p09",
+      "method": "simulation",
+      "ok": true,
+      "computed": 6.6714095942375105,
+      "expected": 6.666666666666667,
+      "se": 0.009506254634943421
+    },
+    {
+      "id": "m5-p10",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.7134952031398099,
+      "expected": 0.7134952031398099
+    },
+    {
+      "id": "m5-p10",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.713304,
+      "expected": 0.7134952031398099,
+      "se": 0.0004522183140740763
+    },
+    {
+      "id": "m5-p11",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.31303528549933135,
+      "expected": 0.31303528549933135
+    },
+    {
+      "id": "m5-p11",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.3130352854993313,
+      "expected": 0.31303528549933135
+    },
+    {
+      "id": "m5-p11",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.3141480903825993,
+      "expected": 0.31303528549933135,
+      "se": 0.00043770743915277297
+    },
+    {
+      "id": "m5-p12",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.3233213054643442,
+      "expected": 0.3233213054643442
+    },
+    {
+      "id": "m5-p12",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.3233213054643424,
+      "expected": 0.3233213054643442
+    },
+    {
+      "id": "m5-p12",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.324663,
+      "expected": 0.3233213054643442,
+      "se": 0.0004682487975756051
+    },
+    {
+      "id": "m5-p13",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.4999999999999994,
+      "expected": 0.5
+    },
+    {
+      "id": "m5-p13",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.5,
+      "expected": 0.5
+    },
+    {
+      "id": "m5-p14",
+      "method": "formula",
+      "ok": true,
+      "computed": 30.000000000000004,
+      "expected": 30
+    },
+    {
+      "id": "m5-p14",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 30.0000000000001,
+      "expected": 30
+    },
+    {
+      "id": "m5-p15",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.0668072145151041,
+      "expected": 0.0668072145151041
+    },
+    {
+      "id": "m5-p15",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.06682266666666667,
+      "expected": 0.0668072145151041,
+      "se": 0.00010194557198674057
+    },
+    {
+      "id": "m5-p16",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.818594722155302,
+      "expected": 0.818594722155302
+    },
+    {
+      "id": "m5-p16",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.818884,
+      "expected": 0.818594722155302,
+      "se": 0.00038511426167307805
+    },
+    {
+      "id": "m5-p17",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.15765119404989036,
+      "expected": 0.15765119404989036
+    },
+    {
+      "id": "m5-p17",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.15785136363636362,
+      "expected": 0.15765119404989036,
+      "se": 0.0002458143336993336
+    },
+    {
+      "id": "m5-p18",
+      "method": "formula",
+      "ok": true,
+      "computed": 1167,
+      "expected": 1167
+    },
+    {
+      "id": "m5-p18",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1167,
+      "expected": 1167
+    },
+    {
+      "id": "m5-p19",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.1111111111111111,
+      "expected": 0.1111111111111111
+    },
+    {
+      "id": "m5-p19",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.1111111111111111,
+      "expected": 0.1111111111111111
+    },
+    {
+      "id": "m5-p20",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.11493110116693628,
+      "expected": 0.11493110116693628
+    },
+    {
+      "id": "m5-p20",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.115299,
+      "expected": 0.11493110116693628,
+      "se": 0.00018439553555604324
+    },
+    {
+      "id": "m5-p21",
+      "method": "dp",
+      "ok": true,
+      "computed": 9.999999999999998,
+      "expected": 10
+    },
+    {
+      "id": "m5-p21",
+      "method": "formula",
+      "ok": true,
+      "computed": 10,
+      "expected": 10
+    },
+    {
+      "id": "m5-p21",
+      "method": "simulation",
+      "ok": true,
+      "computed": 10.010764,
+      "expected": 10,
+      "se": 0.010828330853282605
+    },
+    {
+      "id": "m5-p22",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m5-p22",
+      "method": "formula",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m5-p23",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.3328061737902136,
+      "expected": 0.3328061737902136
+    },
+    {
+      "id": "m5-p23",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.332672,
+      "expected": 0.3328061737902136,
+      "se": 0.00047117018201070407
+    },
+    {
+      "id": "m5-p24",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m5-p24",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m5-p24",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.9988346666666666,
+      "expected": 1,
+      "se": 0.0014088908108464986
+    },
+    {
+      "id": "m5-p25",
+      "method": "dp",
+      "ok": true,
+      "computed": 280.00000000000136,
+      "expected": 280
+    },
+    {
+      "id": "m5-p25",
+      "method": "formula",
+      "ok": true,
+      "computed": 280.00000000000006,
+      "expected": 280
+    },
+    {
+      "id": "m5-p25",
+      "method": "simulation",
+      "ok": true,
+      "computed": 279.5524082857143,
+      "expected": 280,
+      "se": 0.4223326575261811
+    },
+    {
+      "id": "m5-p26",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.6054931438032405,
+      "expected": 0.6054931438032397
+    },
+    {
+      "id": "m5-p26",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.6054931438032339,
+      "expected": 0.6054931438032397
+    },
+    {
+      "id": "m5-p26",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.6047874834216409,
+      "expected": 0.6054931438032397,
+      "se": 0.0006691242493564528
+    },
+    {
+      "id": "m5-lc1",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.16000000000000003,
+      "expected": 0.16
+    },
+    {
+      "id": "m5-lc1",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.16,
+      "expected": 0.16
+    },
+    {
+      "id": "m5-lc2",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 8.75,
+      "expected": 8.75
+    },
+    {
+      "id": "m5-lc2",
+      "method": "formula",
+      "ok": true,
+      "computed": 8.75,
+      "expected": 8.75
+    },
+    {
+      "id": "m5-lc3",
+      "method": "formula",
+      "ok": true,
+      "computed": 1.5,
+      "expected": 1.5
+    },
+    {
+      "id": "m5-lc3",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1.5,
+      "expected": 1.5
+    },
+    {
+      "id": "m5-lc4",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.19914827347145578,
+      "expected": 0.19914827347145578
+    },
+    {
+      "id": "m5-lc4",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.1994724,
+      "expected": 0.19914827347145578,
+      "se": 0.00025273160596826034
+    },
+    {
+      "id": "m6-p01",
+      "method": "recursion",
+      "ok": true,
+      "computed": 6.000000000000002,
+      "expected": 6
+    },
+    {
+      "id": "m6-p01",
+      "method": "simulation",
+      "ok": true,
+      "computed": 5.989007,
+      "expected": 6,
+      "se": 0.005458149883793134
+    },
+    {
+      "id": "m6-p02",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0.29999999999999993,
+      "expected": 0.3
+    },
+    {
+      "id": "m6-p02",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.300281,
+      "expected": 0.3,
+      "se": 0.0004583801054136185
+    },
+    {
+      "id": "m6-p03",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 13,
+      "expected": 13
+    },
+    {
+      "id": "m6-p03",
+      "method": "dp",
+      "ok": true,
+      "computed": 13,
+      "expected": 13
+    },
+    {
+      "id": "m6-p04",
+      "method": "recursion",
+      "ok": true,
+      "computed": 4,
+      "expected": 4
+    },
+    {
+      "id": "m6-p04",
+      "method": "simulation",
+      "ok": true,
+      "computed": 4.001465,
+      "expected": 4,
+      "se": 0.0020020097037164934
+    },
+    {
+      "id": "m6-p05",
+      "method": "recursion",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "m6-p05",
+      "method": "simulation",
+      "ok": true,
+      "computed": 5.999263,
+      "expected": 6,
+      "se": 0.004680155174439305
+    },
+    {
+      "id": "m6-p06",
+      "method": "recursion",
+      "ok": true,
+      "computed": 7.000000000000002,
+      "expected": 7
+    },
+    {
+      "id": "m6-p06",
+      "method": "simulation",
+      "ok": true,
+      "computed": 6.998779,
+      "expected": 7,
+      "se": 0.005472215411436121
+    },
+    {
+      "id": "m6-p07",
+      "method": "recursion",
+      "ok": true,
+      "computed": 24,
+      "expected": 24
+    },
+    {
+      "id": "m6-p07",
+      "method": "formula",
+      "ok": true,
+      "computed": 24,
+      "expected": 24
+    },
+    {
+      "id": "m6-p07",
+      "method": "simulation",
+      "ok": true,
+      "computed": 24.005766,
+      "expected": 24,
+      "se": 0.01998017404211595
+    },
+    {
+      "id": "m6-p08",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0.375,
+      "expected": 0.375
+    },
+    {
+      "id": "m6-p08",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.375108,
+      "expected": 0.375,
+      "se": 0.0004841507909071305
+    },
+    {
+      "id": "m6-p09",
+      "method": "dp",
+      "ok": true,
+      "computed": 89,
+      "expected": 89
+    },
+    {
+      "id": "m6-p09",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 89,
+      "expected": 89
+    },
+    {
+      "id": "m6-p10",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m6-p10",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m6-p11",
+      "method": "recursion",
+      "ok": true,
+      "computed": 41.99999999999973,
+      "expected": 42
+    },
+    {
+      "id": "m6-p11",
+      "method": "dp",
+      "ok": true,
+      "computed": 41.999999999999915,
+      "expected": 42
+    },
+    {
+      "id": "m6-p12",
+      "method": "recursion",
+      "ok": true,
+      "computed": 35.9999999999998,
+      "expected": 36
+    },
+    {
+      "id": "m6-p12",
+      "method": "dp",
+      "ok": true,
+      "computed": 35.99999999999998,
+      "expected": 36
+    },
+    {
+      "id": "m6-p13",
+      "method": "recursion",
+      "ok": true,
+      "computed": 14,
+      "expected": 14
+    },
+    {
+      "id": "m6-p13",
+      "method": "simulation",
+      "ok": true,
+      "computed": 14.005743,
+      "expected": 14,
+      "se": 0.011932101492107373
+    },
+    {
+      "id": "m6-p14",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.21484375,
+      "expected": 0.21484375
+    },
+    {
+      "id": "m6-p14",
+      "method": "dp",
+      "ok": true,
+      "computed": 0.21484375,
+      "expected": 0.21484375
+    },
+    {
+      "id": "m6-p15",
+      "method": "recursion",
+      "ok": true,
+      "computed": 8.75,
+      "expected": 8.75
+    },
+    {
+      "id": "m6-p15",
+      "method": "simulation",
+      "ok": true,
+      "computed": 8.751477,
+      "expected": 8.75,
+      "se": 0.007459028175202919
+    },
+    {
+      "id": "m6-p16",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0.75,
+      "expected": 0.75
+    },
+    {
+      "id": "m6-p16",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.750285,
+      "expected": 0.75,
+      "se": 0.0004328480319638753
+    },
+    {
+      "id": "m6-p17",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0.26828259881871913,
+      "expected": 0.2682825988187187
+    },
+    {
+      "id": "m6-p17",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.26828259881871874,
+      "expected": 0.2682825988187187
+    },
+    {
+      "id": "m6-p17",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.2681435,
+      "expected": 0.2682825988187187,
+      "se": 0.0003132431670505759
+    },
+    {
+      "id": "m6-p18",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0.3157894736842105,
+      "expected": 0.3157894736842105
+    },
+    {
+      "id": "m6-p18",
+      "method": "dp",
+      "ok": true,
+      "computed": 0.3157894736842106,
+      "expected": 0.3157894736842105
+    },
+    {
+      "id": "m6-p18",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.315275,
+      "expected": 0.3157894736842105,
+      "se": 0.0004646253053536796
+    },
+    {
+      "id": "m6-p19",
+      "method": "recursion",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "m6-p19",
+      "method": "simulation",
+      "ok": true,
+      "computed": 6.002085,
+      "expected": 6,
+      "se": 0.004970637046976474
+    },
+    {
+      "id": "m6-p20",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m6-p20",
+      "method": "dp",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m6-p21",
+      "method": "recursion",
+      "ok": true,
+      "computed": 25,
+      "expected": 25
+    },
+    {
+      "id": "m6-p21",
+      "method": "simulation",
+      "ok": true,
+      "computed": 24.983802,
+      "expected": 25,
+      "se": 0.019942982465639286
+    },
+    {
+      "id": "m6-p22",
+      "method": "recursion",
+      "ok": true,
+      "computed": 19.181818181818187,
+      "expected": 19.181818181818183
+    },
+    {
+      "id": "m6-p22",
+      "method": "simulation",
+      "ok": true,
+      "computed": 19.189848,
+      "expected": 19.181818181818183,
+      "se": 0.014248599571077011
+    },
+    {
+      "id": "m6-p23",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m6-p23",
+      "method": "formula",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m6-p24",
+      "method": "recursion",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "m6-p24",
+      "method": "simulation",
+      "ok": true,
+      "computed": 5.998121,
+      "expected": 6,
+      "se": 0.004690796251102684
+    },
+    {
+      "id": "m6-p25",
+      "method": "recursion",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "m6-p25",
+      "method": "formula",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "m6-p25",
+      "method": "simulation",
+      "ok": true,
+      "computed": 6.002934,
+      "expected": 6,
+      "se": 0.006325346108446874
+    },
+    {
+      "id": "m6-p26",
+      "method": "recursion",
+      "ok": true,
+      "computed": 19.027777777777775,
+      "expected": 19.02777777777778
+    },
+    {
+      "id": "m6-p26",
+      "method": "dp",
+      "ok": true,
+      "computed": 19.027777777777775,
+      "expected": 19.02777777777778
+    },
+    {
+      "id": "m6-p26",
+      "method": "formula",
+      "ok": true,
+      "computed": 19.02777777777778,
+      "expected": 19.02777777777778
+    },
+    {
+      "id": "m6-p27",
+      "method": "recursion",
+      "ok": true,
+      "computed": 56.000000000000064,
+      "expected": 56
+    },
+    {
+      "id": "m6-p27",
+      "method": "dp",
+      "ok": true,
+      "computed": 55.99999999999962,
+      "expected": 56
+    },
+    {
+      "id": "m6-p28",
+      "method": "recursion",
+      "ok": true,
+      "computed": 7.000000000000001,
+      "expected": 7
+    },
+    {
+      "id": "m6-p28",
+      "method": "dp",
+      "ok": true,
+      "computed": 6.999999999999994,
+      "expected": 7
+    },
+    {
+      "id": "m6-lc1",
+      "method": "recursion",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m6-lc1",
+      "method": "simulation",
+      "ok": true,
+      "computed": 2.001858,
+      "expected": 2,
+      "se": 0.001414471119477524
+    },
+    {
+      "id": "m6-lc2",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0.3999999999999999,
+      "expected": 0.4
+    },
+    {
+      "id": "m6-lc2",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.399761,
+      "expected": 0.4,
+      "se": 0.000489849102151877
+    },
+    {
+      "id": "m6-lc3",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 8,
+      "expected": 8
+    },
+    {
+      "id": "m6-lc3",
+      "method": "dp",
+      "ok": true,
+      "computed": 8,
+      "expected": 8
+    },
+    {
+      "id": "m6-lc4",
+      "method": "recursion",
+      "ok": true,
+      "computed": 2.9999999999999996,
+      "expected": 3
+    },
+    {
+      "id": "m6-lc4",
+      "method": "simulation",
+      "ok": true,
+      "computed": 2.99881,
+      "expected": 3,
+      "se": 0.00245452980912842
+    },
+    {
+      "id": "m7-p01",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 3.5,
+      "expected": 3.5
+    },
+    {
+      "id": "m7-p01",
+      "method": "simulation",
+      "ok": true,
+      "computed": 3.5009633333333334,
+      "expected": 3.5,
+      "se": 0.003123014429818064
+    },
+    {
+      "id": "m7-p02",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.2222222222222222,
+      "expected": 0.2222222222222222
+    },
+    {
+      "id": "m7-p02",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.2222222222222221,
+      "expected": 0.2222222222222222
+    },
+    {
+      "id": "m7-p03",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m7-p03",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m7-p04",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 6.538461538461538,
+      "expected": 6.538461538461538
+    },
+    {
+      "id": "m7-p04",
+      "method": "simulation",
+      "ok": true,
+      "computed": 6.53539,
+      "expected": 6.538461538461538,
+      "se": 0.004988235546738948
+    },
+    {
+      "id": "m7-p05",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.29411764705882354,
+      "expected": 0.29411764705882354
+    },
+    {
+      "id": "m7-p05",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.29411764705882354,
+      "expected": 0.29411764705882354
+    },
+    {
+      "id": "m7-p06",
+      "method": "dp",
+      "ok": true,
+      "computed": 4.25,
+      "expected": 4.25
+    },
+    {
+      "id": "m7-p06",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 4.25,
+      "expected": 4.25
+    },
+    {
+      "id": "m7-p06",
+      "method": "simulation",
+      "ok": true,
+      "computed": 4.24607,
+      "expected": 4.25,
+      "se": 0.00280314479455169
+    },
+    {
+      "id": "m7-p07",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.16000000000000003,
+      "expected": 0.16000000000000003
+    },
+    {
+      "id": "m7-p07",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.16000000000000003,
+      "expected": 0.16000000000000003
+    },
+    {
+      "id": "m7-p08",
+      "method": "dp",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m7-p08",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m7-p09",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m7-p09",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m7-p10",
+      "method": "dp",
+      "ok": true,
+      "computed": 4.666666666666667,
+      "expected": 4.666666666666667
+    },
+    {
+      "id": "m7-p10",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 4.666666666666667,
+      "expected": 4.666666666666667
+    },
+    {
+      "id": "m7-p10",
+      "method": "simulation",
+      "ok": true,
+      "computed": 4.663796666666666,
+      "expected": 4.666666666666667,
+      "se": 0.0025887603116306612
+    },
+    {
+      "id": "m7-p11",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 6.888888888888889,
+      "expected": 6.888888888888889
+    },
+    {
+      "id": "m7-p11",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 6.888888888888889,
+      "expected": 6.888888888888889
+    },
+    {
+      "id": "m7-p11",
+      "method": "simulation",
+      "ok": true,
+      "computed": 6.890883333333333,
+      "expected": 6.888888888888889,
+      "se": 0.004581107418174328
+    },
+    {
+      "id": "m7-p12",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.43333333333333335,
+      "expected": 0.43333333333333335
+    },
+    {
+      "id": "m7-p12",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.43333333333333335,
+      "expected": 0.43333333333333335
+    },
+    {
+      "id": "m7-p12",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.433569,
+      "expected": 0.43333333333333335,
+      "se": 0.0004955672731718671
+    },
+    {
+      "id": "m7-p13",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.2,
+      "expected": 0.2
+    },
+    {
+      "id": "m7-p13",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.2,
+      "expected": 0.2
+    },
+    {
+      "id": "m7-p14",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 40,
+      "expected": 40
+    },
+    {
+      "id": "m7-p14",
+      "method": "formula",
+      "ok": true,
+      "computed": 40,
+      "expected": 40
+    },
+    {
+      "id": "m7-p15",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2.5277777777777777,
+      "expected": 2.5277777777777777
+    },
+    {
+      "id": "m7-p15",
+      "method": "simulation",
+      "ok": true,
+      "computed": 2.5257225,
+      "expected": 2.5277777777777777,
+      "se": 0.0022185487108658157
+    },
+    {
+      "id": "m7-p16",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m7-p16",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m7-p17",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 5.4765625,
+      "expected": 5.4765625
+    },
+    {
+      "id": "m7-p17",
+      "method": "formula",
+      "ok": true,
+      "computed": 5.4765625,
+      "expected": 5.4765625
+    },
+    {
+      "id": "m7-p17",
+      "method": "simulation",
+      "ok": true,
+      "computed": 5.480571583333333,
+      "expected": 5.4765625,
+      "se": 0.007715984787385423
+    },
+    {
+      "id": "m7-p18",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m7-p18",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m7-p19",
+      "method": "dp",
+      "ok": true,
+      "computed": 4,
+      "expected": 4
+    },
+    {
+      "id": "m7-p19",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 4,
+      "expected": 4
+    },
+    {
+      "id": "m7-p20",
+      "method": "dp",
+      "ok": true,
+      "computed": 4.749999999999998,
+      "expected": 4.75
+    },
+    {
+      "id": "m7-p20",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 4.75,
+      "expected": 4.75
+    },
+    {
+      "id": "m7-p20",
+      "method": "simulation",
+      "ok": true,
+      "computed": 4.749100833333333,
+      "expected": 4.75,
+      "se": 0.0014427209823023495
+    },
+    {
+      "id": "m7-p21",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.6,
+      "expected": 0.6
+    },
+    {
+      "id": "m7-p21",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.6,
+      "expected": 0.6
+    },
+    {
+      "id": "m7-p22",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.006401456997320372,
+      "expected": 0.006401456997320372
+    },
+    {
+      "id": "m7-p22",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.006401456997320372,
+      "expected": 0.006401456997320372
+    },
+    {
+      "id": "m7-p22",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.006401456997321206,
+      "expected": 0.006401456997320372
+    },
+    {
+      "id": "m7-p23",
+      "method": "dp",
+      "ok": true,
+      "computed": 3.7037037037037037,
+      "expected": 3.7037037037037037
+    },
+    {
+      "id": "m7-p23",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 3.7037037037037037,
+      "expected": 3.7037037037037037
+    },
+    {
+      "id": "m7-p23",
+      "method": "simulation",
+      "ok": true,
+      "computed": 3.703645,
+      "expected": 3.7037037037037037,
+      "se": 0.0035559927284708422
+    },
+    {
+      "id": "m7-p24",
+      "method": "dp",
+      "ok": true,
+      "computed": 0.3595679012345679,
+      "expected": 0.3595679012345679
+    },
+    {
+      "id": "m7-p24",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.3595679012345679,
+      "expected": 0.3595679012345679
+    },
+    {
+      "id": "m7-p24",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.360252,
+      "expected": 0.3595679012345679,
+      "se": 0.00048007342823364014
+    },
+    {
+      "id": "m7-p25",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.09999999999999994,
+      "expected": 0.1
+    },
+    {
+      "id": "m7-p25",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.09999999999999994,
+      "expected": 0.1
+    },
+    {
+      "id": "m7-p26",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.6555555555555556,
+      "expected": 0.6555555555555556
+    },
+    {
+      "id": "m7-p26",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.6555555555555554,
+      "expected": 0.6555555555555556
+    },
+    {
+      "id": "m7-p26",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.655856,
+      "expected": 0.6555555555555556,
+      "se": 0.00047508831522570624
+    },
+    {
+      "id": "m7-lc1",
+      "method": "enumeration",
+      "ok": true,
+      "computed": -0.5,
+      "expected": -0.5
+    },
+    {
+      "id": "m7-lc1",
+      "method": "formula",
+      "ok": true,
+      "computed": -0.5,
+      "expected": -0.5
+    },
+    {
+      "id": "m7-lc2",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.2,
+      "expected": 0.2
+    },
+    {
+      "id": "m7-lc2",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.2,
+      "expected": 0.2
+    },
+    {
+      "id": "m7-lc3",
+      "method": "dp",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m7-lc3",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m7-lc4",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.10000000000000003,
+      "expected": 0.10000000000000003
+    },
+    {
+      "id": "m7-lc4",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.10000000000000009,
+      "expected": 0.10000000000000003
+    },
+    {
+      "id": "m8-p01",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 12,
+      "expected": 12
+    },
+    {
+      "id": "m8-p01",
+      "method": "simulation",
+      "ok": true,
+      "computed": 12.002613333333333,
+      "expected": 12,
+      "se": 0.004415017240619
+    },
+    {
+      "id": "m8-p02",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "m8-p02",
+      "method": "simulation",
+      "ok": true,
+      "computed": 5.999533333333333,
+      "expected": 6,
+      "se": 0.0022422457360291147
+    },
+    {
+      "id": "m8-p03",
+      "method": "formula",
+      "ok": true,
+      "computed": 15,
+      "expected": 15
+    },
+    {
+      "id": "m8-p04",
+      "method": "formula",
+      "ok": true,
+      "computed": 35,
+      "expected": 35
+    },
+    {
+      "id": "m8-p04",
+      "method": "simulation",
+      "ok": true,
+      "computed": 34.9781,
+      "expected": 35,
+      "se": 0.04769006731374994
+    },
+    {
+      "id": "m8-p05",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 15.166666666666666,
+      "expected": 15.166666666666666
+    },
+    {
+      "id": "m8-p05",
+      "method": "formula",
+      "ok": true,
+      "computed": 15.166666666666666,
+      "expected": 15.166666666666666
+    },
+    {
+      "id": "m8-p06",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 22.92156862745098,
+      "expected": 22.92156862745098
+    },
+    {
+      "id": "m8-p06",
+      "method": "simulation",
+      "ok": true,
+      "computed": 22.917723333333335,
+      "expected": 22.92156862745098,
+      "se": 0.009639258941684872
+    },
+    {
+      "id": "m8-p07",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 4.472222222222222,
+      "expected": 4.472222222222222
+    },
+    {
+      "id": "m8-p07",
+      "method": "formula",
+      "ok": true,
+      "computed": 4.472222222222222,
+      "expected": 4.472222222222222
+    },
+    {
+      "id": "m8-p08",
+      "method": "formula",
+      "ok": true,
+      "computed": 1.2,
+      "expected": 1.2
+    },
+    {
+      "id": "m8-p08",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1.20098,
+      "expected": 1.2,
+      "se": 0.0012964503537737184
+    },
+    {
+      "id": "m8-p09",
+      "method": "formula",
+      "ok": true,
+      "computed": 3.5,
+      "expected": 3.5
+    },
+    {
+      "id": "m8-p09",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 3.5,
+      "expected": 3.5
+    },
+    {
+      "id": "m8-p10",
+      "method": "formula",
+      "ok": true,
+      "computed": 393120000,
+      "expected": 393120000
+    },
+    {
+      "id": "m8-p10",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 393120000,
+      "expected": 393120000
+    },
+    {
+      "id": "m8-p11",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m8-p11",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m8-p12",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m8-p12",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1.00068275,
+      "expected": 1,
+      "se": 0.0011426167683988445
+    },
+    {
+      "id": "m8-p13",
+      "method": "formula",
+      "ok": true,
+      "computed": 73,
+      "expected": 73
+    },
+    {
+      "id": "m8-p13",
+      "method": "simulation",
+      "ok": true,
+      "computed": 73.118325,
+      "expected": 73,
+      "se": 0.08058545262139051
+    },
+    {
+      "id": "m8-p14",
+      "method": "formula",
+      "ok": true,
+      "computed": 10.877057549928594,
+      "expected": 10.877057549928594
+    },
+    {
+      "id": "m8-p14",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 10.877057549928601,
+      "expected": 10.877057549928594
+    },
+    {
+      "id": "m8-p15",
+      "method": "dp",
+      "ok": true,
+      "computed": 11.111111111111114,
+      "expected": 11.11111111111111
+    },
+    {
+      "id": "m8-p15",
+      "method": "formula",
+      "ok": true,
+      "computed": 11.111111111111109,
+      "expected": 11.11111111111111
+    },
+    {
+      "id": "m8-p15",
+      "method": "simulation",
+      "ok": true,
+      "computed": 11.127,
+      "expected": 11.11111111111111,
+      "se": 0.012424366020043034
+    },
+    {
+      "id": "m8-p16",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.3103448275862069,
+      "expected": 0.3103448275862069
+    },
+    {
+      "id": "m8-p16",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.3108005,
+      "expected": 0.3103448275862069,
+      "se": 0.0003272640747162374
+    },
+    {
+      "id": "m8-p17",
+      "method": "formula",
+      "ok": true,
+      "computed": 200,
+      "expected": 200
+    },
+    {
+      "id": "m8-p17",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 200,
+      "expected": 200
+    },
+    {
+      "id": "m8-p18",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m8-p18",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m8-p19",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.6153846153846154,
+      "expected": 0.6153846153846154
+    },
+    {
+      "id": "m8-p19",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.6153846153846154,
+      "expected": 0.6153846153846154
+    },
+    {
+      "id": "m8-p20",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 62.000000000000014,
+      "expected": 62
+    },
+    {
+      "id": "m8-p20",
+      "method": "simulation",
+      "ok": true,
+      "computed": 62.0239,
+      "expected": 62,
+      "se": 0.048532729459510114
+    },
+    {
+      "id": "m8-p21",
+      "method": "formula",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m8-p21",
+      "method": "dp",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m8-p22",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m8-p22",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m8-p23",
+      "method": "formula",
+      "ok": true,
+      "computed": 2.7777777777777777,
+      "expected": 2.7777777777777777
+    },
+    {
+      "id": "m8-p23",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2.7777777777777777,
+      "expected": 2.7777777777777777
+    },
+    {
+      "id": "m8-p24",
+      "method": "dp",
+      "ok": true,
+      "computed": 15.58956916099774,
+      "expected": 15.589569160997732
+    },
+    {
+      "id": "m8-p24",
+      "method": "formula",
+      "ok": true,
+      "computed": 15.589569160997739,
+      "expected": 15.589569160997732
+    },
+    {
+      "id": "m8-p24",
+      "method": "simulation",
+      "ok": true,
+      "computed": 15.573685260855035,
+      "expected": 15.589569160997732,
+      "se": 0.019467797992164363
+    },
+    {
+      "id": "m8-lc1",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 9.5,
+      "expected": 9.5
+    },
+    {
+      "id": "m8-lc1",
+      "method": "formula",
+      "ok": true,
+      "computed": 9.5,
+      "expected": 9.5
+    },
+    {
+      "id": "m8-lc2",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m8-lc2",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m8-lc3",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m8-lc3",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m8-lc4",
+      "method": "formula",
+      "ok": true,
+      "computed": 36000,
+      "expected": 36000
+    },
+    {
+      "id": "m8-lc4",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 36000,
+      "expected": 36000
+    },
+    {
+      "id": "m9-p01",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 5,
+      "expected": 5
+    },
+    {
+      "id": "m9-p01",
+      "method": "formula",
+      "ok": true,
+      "computed": 5,
+      "expected": 5
+    },
+    {
+      "id": "m9-p02",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 47,
+      "expected": 47
+    },
+    {
+      "id": "m9-p02",
+      "method": "formula",
+      "ok": true,
+      "computed": 47,
+      "expected": 47
+    },
+    {
+      "id": "m9-p03",
+      "method": "dp",
+      "ok": true,
+      "computed": 4,
+      "expected": 4
+    },
+    {
+      "id": "m9-p03",
+      "method": "formula",
+      "ok": true,
+      "computed": 4,
+      "expected": 4
+    },
+    {
+      "id": "m9-p04",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 11,
+      "expected": 11
+    },
+    {
+      "id": "m9-p04",
+      "method": "formula",
+      "ok": true,
+      "computed": 11,
+      "expected": 11
+    },
+    {
+      "id": "m9-p05",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 119,
+      "expected": 119
+    },
+    {
+      "id": "m9-p05",
+      "method": "formula",
+      "ok": true,
+      "computed": 119,
+      "expected": 119
+    },
+    {
+      "id": "m9-p06",
+      "method": "dp",
+      "ok": true,
+      "computed": 60,
+      "expected": 60
+    },
+    {
+      "id": "m9-p06",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 60,
+      "expected": 60
+    },
+    {
+      "id": "m9-p07",
+      "method": "formula",
+      "ok": true,
+      "computed": 29,
+      "expected": 29
+    },
+    {
+      "id": "m9-p07",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 29,
+      "expected": 29
+    },
+    {
+      "id": "m9-p08",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 3,
+      "expected": 3
+    },
+    {
+      "id": "m9-p08",
+      "method": "formula",
+      "ok": true,
+      "computed": 3,
+      "expected": 3
+    },
+    {
+      "id": "m9-p09",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 5,
+      "expected": 5
+    },
+    {
+      "id": "m9-p09",
+      "method": "formula",
+      "ok": true,
+      "computed": 5,
+      "expected": 5
+    },
+    {
+      "id": "m9-p10",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 9,
+      "expected": 9
+    },
+    {
+      "id": "m9-p10",
+      "method": "formula",
+      "ok": true,
+      "computed": 9,
+      "expected": 9
+    },
+    {
+      "id": "m9-p11",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m9-p11",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m9-p12",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 5197,
+      "expected": 5197
+    },
+    {
+      "id": "m9-p12",
+      "method": "formula",
+      "ok": true,
+      "computed": 5197,
+      "expected": 5197
+    },
+    {
+      "id": "m9-p13",
+      "method": "dp",
+      "ok": true,
+      "computed": 4,
+      "expected": 4
+    },
+    {
+      "id": "m9-p13",
+      "method": "formula",
+      "ok": true,
+      "computed": 4,
+      "expected": 4
+    },
+    {
+      "id": "m9-p14",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 9,
+      "expected": 9
+    },
+    {
+      "id": "m9-p14",
+      "method": "formula",
+      "ok": true,
+      "computed": 9,
+      "expected": 9
+    },
+    {
+      "id": "m9-p15",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m9-p15",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m9-p16",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 16,
+      "expected": 16
+    },
+    {
+      "id": "m9-p16",
+      "method": "formula",
+      "ok": true,
+      "computed": 16,
+      "expected": 16
+    },
+    {
+      "id": "m9-p17",
+      "method": "dp",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m9-p17",
+      "method": "formula",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m9-p18",
+      "method": "dp",
+      "ok": true,
+      "computed": 7,
+      "expected": 7
+    },
+    {
+      "id": "m9-p18",
+      "method": "formula",
+      "ok": true,
+      "computed": 7,
+      "expected": 7
+    },
+    {
+      "id": "m9-p19",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m9-p19",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m9-p20",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.75,
+      "expected": 0.75
+    },
+    {
+      "id": "m9-p20",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.75,
+      "expected": 0.75
+    },
+    {
+      "id": "m9-p21",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 80,
+      "expected": 80
+    },
+    {
+      "id": "m9-p21",
+      "method": "formula",
+      "ok": true,
+      "computed": 80,
+      "expected": 80
+    },
+    {
+      "id": "m9-p22",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 128,
+      "expected": 128
+    },
+    {
+      "id": "m9-p22",
+      "method": "formula",
+      "ok": true,
+      "computed": 128,
+      "expected": 128
+    },
+    {
+      "id": "m9-p23",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 15,
+      "expected": 15
+    },
+    {
+      "id": "m9-p23",
+      "method": "formula",
+      "ok": true,
+      "computed": 15,
+      "expected": 15
+    },
+    {
+      "id": "m9-p24",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "m9-p24",
+      "method": "formula",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "m9-lc1",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 11,
+      "expected": 11
+    },
+    {
+      "id": "m9-lc1",
+      "method": "formula",
+      "ok": true,
+      "computed": 11,
+      "expected": 11
+    },
+    {
+      "id": "m9-lc2",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m9-lc2",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m9-lc3",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m9-lc3",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m9-lc4",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 15,
+      "expected": 15
+    },
+    {
+      "id": "m9-lc4",
+      "method": "formula",
+      "ok": true,
+      "computed": 15,
+      "expected": 15
+    },
+    {
+      "id": "m10-p01",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.5695327900000003,
+      "expected": 0.5695327899999999
+    },
+    {
+      "id": "m10-p01",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.568949,
+      "expected": 0.5695327899999999,
+      "se": 0.0004952232177503393
+    },
+    {
+      "id": "m10-p02",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.9191919191919192,
+      "expected": 0.9191919191919192
+    },
+    {
+      "id": "m10-p02",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.918986,
+      "expected": 0.9191919191919192,
+      "se": 0.00027285661400083393
+    },
+    {
+      "id": "m10-p03",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.24421593830334193,
+      "expected": 0.24421593830334193
+    },
+    {
+      "id": "m10-p03",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.2446165,
+      "expected": 0.24421593830334193,
+      "se": 0.00030395663171557056
+    },
+    {
+      "id": "m10-p04",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m10-p04",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "m10-p05",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.5315443592552026,
+      "expected": 0.5315443592552027
+    },
+    {
+      "id": "m10-p05",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.531361,
+      "expected": 0.5315443592552027,
+      "se": 0.0004990155184751272
+    },
+    {
+      "id": "m10-p06",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.875,
+      "expected": 0.875
+    },
+    {
+      "id": "m10-p06",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.874234,
+      "expected": 0.875,
+      "se": 0.0009269967169542727
+    },
+    {
+      "id": "m10-p07",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 6.5,
+      "expected": 6.5
+    },
+    {
+      "id": "m10-p07",
+      "method": "formula",
+      "ok": true,
+      "computed": 6.5,
+      "expected": 6.5
+    },
+    {
+      "id": "m10-p08",
+      "method": "formula",
+      "ok": true,
+      "computed": 3.6999999999999984,
+      "expected": 3.7
+    },
+    {
+      "id": "m10-p08",
+      "method": "simulation",
+      "ok": true,
+      "computed": 3.699945,
+      "expected": 3.7,
+      "se": 0.00157328636695215
+    },
+    {
+      "id": "m10-p09",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.29030400000000006,
+      "expected": 0.29030400000000006
+    },
+    {
+      "id": "m10-p09",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.2907513333333333,
+      "expected": 0.29030400000000006,
+      "se": 0.00037077845631250134
+    },
+    {
+      "id": "m10-p10",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.4060058497098381,
+      "expected": 0.4060058497098381
+    },
+    {
+      "id": "m10-p10",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.405641,
+      "expected": 0.4060058497098381,
+      "se": 0.0004910156607675564
+    },
+    {
+      "id": "m10-p11",
+      "method": "recursion",
+      "ok": true,
+      "computed": 2.521626371742112,
+      "expected": 2.5216263717421135
+    },
+    {
+      "id": "m10-p11",
+      "method": "simulation",
+      "ok": true,
+      "computed": 2.5226425,
+      "expected": 2.5216263717421135,
+      "se": 0.0011038085400033725
+    },
+    {
+      "id": "m10-p12",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0.6090225563909776,
+      "expected": 0.6090225563909775
+    },
+    {
+      "id": "m10-p12",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.608472,
+      "expected": 0.6090225563909775,
+      "se": 0.00048809202535587487
+    },
+    {
+      "id": "m10-p13",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 4.666666666666667,
+      "expected": 4.666666666666667
+    },
+    {
+      "id": "m10-p13",
+      "method": "simulation",
+      "ok": true,
+      "computed": 4.67058,
+      "expected": 4.666666666666667,
+      "se": 0.002232427190078099
+    },
+    {
+      "id": "m10-p14",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.10000000000000003,
+      "expected": 0.10000000000000003
+    },
+    {
+      "id": "m10-p14",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.1,
+      "expected": 0.10000000000000003
+    },
+    {
+      "id": "m10-p15",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m10-p16",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "m10-p17",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1.75,
+      "expected": 1.75
+    },
+    {
+      "id": "m10-p17",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1.750192,
+      "expected": 1.75,
+      "se": 0.0017892858704723512
+    },
+    {
+      "id": "m10-p18",
+      "method": "formula",
+      "ok": true,
+      "computed": 57600,
+      "expected": 57600
+    },
+    {
+      "id": "m10-p18",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 57600,
+      "expected": 57600
+    },
+    {
+      "id": "m10-lc1",
+      "method": "formula",
+      "ok": true,
+      "computed": 18,
+      "expected": 18
+    },
+    {
+      "id": "m10-lc2",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m10-lc2",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "m10-lc3",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.205078125,
+      "expected": 0.205078125
+    },
+    {
+      "id": "m10-lc3",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.205078125,
+      "expected": 0.205078125
+    },
+    {
+      "id": "m10-lc4",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.48225308641975306,
+      "expected": 0.4822530864197532
+    },
+    {
+      "id": "m10-lc4",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.4822530864197532,
+      "expected": 0.4822530864197532
+    },
+    {
+      "id": "bt-001",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 84.375,
+      "expected": 84.375
+    },
+    {
+      "id": "bt-001",
+      "method": "formula",
+      "ok": true,
+      "computed": 84.375,
+      "expected": 84.375
+    },
+    {
+      "id": "bt-002",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.6214847535156249,
+      "expected": 0.6214847535156249
+    },
+    {
+      "id": "bt-002",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.621799,
+      "expected": 0.6214847535156249,
+      "se": 0.00048493814409571867
+    },
+    {
+      "id": "bt-003",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-003",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-004",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0.32967032967032983,
+      "expected": 0.32967032967032966
+    },
+    {
+      "id": "bt-004",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.329328,
+      "expected": 0.32967032967032966,
+      "se": 0.00046996922071131423
+    },
+    {
+      "id": "bt-005",
+      "method": "recursion",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "bt-005",
+      "method": "formula",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "bt-006",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.875,
+      "expected": 0.875
+    },
+    {
+      "id": "bt-006",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.875,
+      "expected": 0.875
+    },
+    {
+      "id": "bt-006",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.8757016666666667,
+      "expected": 0.875,
+      "se": 0.001196844177407974
+    },
+    {
+      "id": "bt-007",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.15999999999999992,
+      "expected": 0.16
+    },
+    {
+      "id": "bt-007",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.160278,
+      "expected": 0.16,
+      "se": 0.00021180884677463312
+    },
+    {
+      "id": "bt-008",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-009",
+      "method": "enumeration",
+      "ok": true,
+      "computed": -0.4641000000000003,
+      "expected": -0.4641000000000004
+    },
+    {
+      "id": "bt-009",
+      "method": "recursion",
+      "ok": true,
+      "computed": -0.4641000000000004,
+      "expected": -0.4641000000000004
+    },
+    {
+      "id": "bt-010",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.3333333333333333,
+      "expected": 0.3333333333333333
+    },
+    {
+      "id": "bt-010",
+      "method": "formula",
+      "ok": true,
+      "computed": 0.3333333333333333,
+      "expected": 0.3333333333333333
+    },
+    {
+      "id": "bt-010",
+      "method": "simulation",
+      "ok": true,
+      "computed": 0.333335,
+      "expected": 0.3333333333333333,
+      "se": 0.0004714051100433681
+    },
+    {
+      "id": "bt-011",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 16,
+      "expected": 16
+    },
+    {
+      "id": "bt-011",
+      "method": "formula",
+      "ok": true,
+      "computed": 16,
+      "expected": 16
+    },
+    {
+      "id": "bt-012",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 16,
+      "expected": 16
+    },
+    {
+      "id": "bt-012",
+      "method": "formula",
+      "ok": true,
+      "computed": 16,
+      "expected": 16
+    },
+    {
+      "id": "bt-013",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 5,
+      "expected": 5
+    },
+    {
+      "id": "bt-013",
+      "method": "formula",
+      "ok": true,
+      "computed": 5,
+      "expected": 5
+    },
+    {
+      "id": "bt-014",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "bt-014",
+      "method": "formula",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "bt-015",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "bt-016",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 3,
+      "expected": 3
+    },
+    {
+      "id": "bt-016",
+      "method": "formula",
+      "ok": true,
+      "computed": 3,
+      "expected": 3
+    },
+    {
+      "id": "bt-017",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 3,
+      "expected": 3
+    },
+    {
+      "id": "bt-017",
+      "method": "formula",
+      "ok": true,
+      "computed": 3,
+      "expected": 3
+    },
+    {
+      "id": "bt-018",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 12,
+      "expected": 12
+    },
+    {
+      "id": "bt-018",
+      "method": "formula",
+      "ok": true,
+      "computed": 12,
+      "expected": 12
+    },
+    {
+      "id": "bt-019",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-020",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 7,
+      "expected": 7
+    },
+    {
+      "id": "bt-020",
+      "method": "formula",
+      "ok": true,
+      "computed": 7,
+      "expected": 7
+    },
+    {
+      "id": "bt-021",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0.75,
+      "expected": 0.75
+    },
+    {
+      "id": "bt-021",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 0.75,
+      "expected": 0.75
+    },
+    {
+      "id": "bt-022",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "bt-022",
+      "method": "formula",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "bt-023",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-024",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-024",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-025",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 3980,
+      "expected": 3980
+    },
+    {
+      "id": "bt-025",
+      "method": "dp",
+      "ok": true,
+      "computed": 3980,
+      "expected": 3980
+    },
+    {
+      "id": "bt-026",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 182,
+      "expected": 182
+    },
+    {
+      "id": "bt-026",
+      "method": "formula",
+      "ok": true,
+      "computed": 182,
+      "expected": 182
+    },
+    {
+      "id": "bt-027",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 75,
+      "expected": 75
+    },
+    {
+      "id": "bt-027",
+      "method": "formula",
+      "ok": true,
+      "computed": 75,
+      "expected": 75
+    },
+    {
+      "id": "bt-028",
+      "method": "formula",
+      "ok": true,
+      "computed": 45,
+      "expected": 45
+    },
+    {
+      "id": "bt-028",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 45,
+      "expected": 45
+    },
+    {
+      "id": "bt-029",
+      "method": "formula",
+      "ok": true,
+      "computed": 4,
+      "expected": 4
+    },
+    {
+      "id": "bt-029",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 4,
+      "expected": 4
+    },
+    {
+      "id": "bt-030",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 200,
+      "expected": 200
+    },
+    {
+      "id": "bt-030",
+      "method": "formula",
+      "ok": true,
+      "computed": 200,
+      "expected": 200
+    },
+    {
+      "id": "bt-031",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-032",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "bt-033",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 340,
+      "expected": 340
+    },
+    {
+      "id": "bt-033",
+      "method": "formula",
+      "ok": true,
+      "computed": 340,
+      "expected": 340
+    },
+    {
+      "id": "bt-033",
+      "method": "dp",
+      "ok": true,
+      "computed": 340,
+      "expected": 340
+    },
+    {
+      "id": "bt-034",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 20,
+      "expected": 20
+    },
+    {
+      "id": "bt-034",
+      "method": "formula",
+      "ok": true,
+      "computed": 20,
+      "expected": 20
+    },
+    {
+      "id": "bt-035",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 160,
+      "expected": 160
+    },
+    {
+      "id": "bt-035",
+      "method": "formula",
+      "ok": true,
+      "computed": 160,
+      "expected": 160
+    },
+    {
+      "id": "bt-036",
+      "method": "dp",
+      "ok": true,
+      "computed": 42,
+      "expected": 42
+    },
+    {
+      "id": "bt-036",
+      "method": "formula",
+      "ok": true,
+      "computed": 42,
+      "expected": 42
+    },
+    {
+      "id": "bt-037",
+      "method": "dp",
+      "ok": true,
+      "computed": 89,
+      "expected": 89
+    },
+    {
+      "id": "bt-037",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 89,
+      "expected": 89
+    },
+    {
+      "id": "bt-038",
+      "method": "dp",
+      "ok": true,
+      "computed": 470010,
+      "expected": 470010
+    },
+    {
+      "id": "bt-038",
+      "method": "formula",
+      "ok": true,
+      "computed": 470010,
+      "expected": 470010
+    },
+    {
+      "id": "bt-039",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-039",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-040",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-040",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-041",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-041",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-042",
+      "method": "dp",
+      "ok": true,
+      "computed": 362879,
+      "expected": 362879
+    },
+    {
+      "id": "bt-042",
+      "method": "formula",
+      "ok": true,
+      "computed": 362879,
+      "expected": 362879
+    },
+    {
+      "id": "bt-043",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "bt-043",
+      "method": "formula",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "bt-044",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-044",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-045",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 5,
+      "expected": 5
+    },
+    {
+      "id": "bt-045",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 5,
+      "expected": 5
+    },
+    {
+      "id": "bt-046",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 33,
+      "expected": 33
+    },
+    {
+      "id": "bt-046",
+      "method": "formula",
+      "ok": true,
+      "computed": 33,
+      "expected": 33
+    },
+    {
+      "id": "bt-047",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 3,
+      "expected": 3
+    },
+    {
+      "id": "bt-047",
+      "method": "dp",
+      "ok": true,
+      "computed": 3,
+      "expected": 3
+    },
+    {
+      "id": "bt-048",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-049",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-050",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 10,
+      "expected": 10
+    },
+    {
+      "id": "bt-050",
+      "method": "dp",
+      "ok": true,
+      "computed": 10,
+      "expected": 10
+    },
+    {
+      "id": "bt-051",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-052",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "bt-053",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 9,
+      "expected": 9
+    },
+    {
+      "id": "bt-053",
+      "method": "formula",
+      "ok": true,
+      "computed": 9,
+      "expected": 9
+    },
+    {
+      "id": "bt-054",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 29,
+      "expected": 29
+    },
+    {
+      "id": "bt-054",
+      "method": "dp",
+      "ok": true,
+      "computed": 29,
+      "expected": 29
+    },
+    {
+      "id": "bt-055",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 8,
+      "expected": 8
+    },
+    {
+      "id": "bt-055",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 8,
+      "expected": 8
+    },
+    {
+      "id": "bt-056",
+      "method": "formula",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "bt-056",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 6,
+      "expected": 6
+    },
+    {
+      "id": "bt-057",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 5,
+      "expected": 5
+    },
+    {
+      "id": "bt-057",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 5,
+      "expected": 5
+    },
+    {
+      "id": "bt-058",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 3,
+      "expected": 3
+    },
+    {
+      "id": "bt-058",
+      "method": "formula",
+      "ok": true,
+      "computed": 3,
+      "expected": 3
+    },
+    {
+      "id": "bt-059",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 24,
+      "expected": 24
+    },
+    {
+      "id": "bt-059",
+      "method": "formula",
+      "ok": true,
+      "computed": 24,
+      "expected": 24
+    },
+    {
+      "id": "bt-060",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 7,
+      "expected": 7
+    },
+    {
+      "id": "bt-060",
+      "method": "formula",
+      "ok": true,
+      "computed": 7,
+      "expected": 7
+    },
+    {
+      "id": "bt-061",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-061",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-062",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-062",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-063",
+      "method": "dp",
+      "ok": true,
+      "computed": 19,
+      "expected": 19
+    },
+    {
+      "id": "bt-063",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 19,
+      "expected": 19
+    },
+    {
+      "id": "bt-064",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 4,
+      "expected": 4
+    },
+    {
+      "id": "bt-064",
+      "method": "dp",
+      "ok": true,
+      "computed": 4,
+      "expected": 4
+    },
+    {
+      "id": "bt-065",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 8,
+      "expected": 8
+    },
+    {
+      "id": "bt-065",
+      "method": "formula",
+      "ok": true,
+      "computed": 8,
+      "expected": 8
+    },
+    {
+      "id": "bt-066",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-066",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-067",
+      "method": "dp",
+      "ok": true,
+      "computed": 341,
+      "expected": 341
+    },
+    {
+      "id": "bt-067",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 341,
+      "expected": 341
+    },
+    {
+      "id": "bt-068",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 274,
+      "expected": 274
+    },
+    {
+      "id": "bt-068",
+      "method": "dp",
+      "ok": true,
+      "computed": 274,
+      "expected": 274
+    },
+    {
+      "id": "bt-069",
+      "method": "formula",
+      "ok": true,
+      "computed": 57,
+      "expected": 57
+    },
+    {
+      "id": "bt-069",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 57,
+      "expected": 57
+    },
+    {
+      "id": "bt-070",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 43,
+      "expected": 43
+    },
+    {
+      "id": "bt-070",
+      "method": "recursion",
+      "ok": true,
+      "computed": 43,
+      "expected": 43
+    },
+    {
+      "id": "bt-071",
+      "method": "dp",
+      "ok": true,
+      "computed": 44,
+      "expected": 44
+    },
+    {
+      "id": "bt-071",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 44,
+      "expected": 44
+    },
+    {
+      "id": "bt-072",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 153,
+      "expected": 153
+    },
+    {
+      "id": "bt-072",
+      "method": "dp",
+      "ok": true,
+      "computed": 153,
+      "expected": 153
+    },
+    {
+      "id": "bt-073",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-074",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 0,
+      "expected": 0
+    },
+    {
+      "id": "bt-075",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 764,
+      "expected": 764
+    },
+    {
+      "id": "bt-075",
+      "method": "formula",
+      "ok": true,
+      "computed": 764,
+      "expected": 764
+    },
+    {
+      "id": "bt-076",
+      "method": "exhaustive-search",
+      "ok": true,
+      "computed": 5,
+      "expected": 5
+    },
+    {
+      "id": "bt-077",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1.5000000000000002,
+      "expected": 1.5
+    },
+    {
+      "id": "bt-077",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1.499365,
+      "expected": 1.5,
+      "se": 0.0008654152741747743
+    },
+    {
+      "id": "bt-078",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-078",
+      "method": "formula",
+      "ok": true,
+      "computed": 2,
+      "expected": 2
+    },
+    {
+      "id": "bt-079",
+      "method": "recursion",
+      "ok": true,
+      "computed": 1.4999999999999998,
+      "expected": 1.5
+    },
+    {
+      "id": "bt-079",
+      "method": "simulation",
+      "ok": true,
+      "computed": 1.4969278333333333,
+      "expected": 1.5,
+      "se": 0.002319851176804427
+    },
+    {
+      "id": "bt-080",
+      "method": "enumeration",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    },
+    {
+      "id": "bt-080",
+      "method": "formula",
+      "ok": true,
+      "computed": 1,
+      "expected": 1
+    }
+  ]
+}
