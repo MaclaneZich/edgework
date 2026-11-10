@@ -6,8 +6,9 @@ calculator allowed) and the live interviews that follow at SIG, Optiver, Jane St
 Citadel Securities. About twenty hours of use takes someone with no probability background to
 test-ready, then keeps stretching them with harder material.
 
-Everything is local-first: no backend, no accounts. Progress lives in your browser (IndexedDB
-with a localStorage fallback) and can be exported and imported as JSON from Settings.
+Everything is local-first. Progress lives in your browser (IndexedDB with a localStorage
+fallback) and can be exported and imported as JSON from Settings. An optional account syncs
+that progress across devices; see "Accounts and sync" below.
 
 ## Setup
 
@@ -56,6 +57,22 @@ Dictation uses the browser's `SpeechRecognition` API and is off by default. In C
 the audio is sent to Google's or Microsoft's speech service for transcription; Safari transcribes
 on-device where available. Reading problems aloud uses `speechSynthesis`, which stays on the
 device. Both are toggled in Settings; typing is always available.
+
+## Accounts and sync
+
+Accounts are optional. Signed out, nothing leaves the browser. Signed in (the Account page),
+the whole progress document is also saved to the account and loaded on other devices.
+
+- Storage is a private Vercel Blob store connected to the project. The route handlers under
+  `src/app/api` read `BLOB_READ_WRITE_TOKEN`, which Vercel sets when the store is connected.
+  Without it the Account page says accounts are unavailable and the app stays local-only.
+  For local development run `npx vercel env pull .env.local`.
+- Passwords are hashed with scrypt. Sessions are random tokens in an httpOnly cookie; the
+  store keeps only their SHA-256. There is no email verification and no password reset.
+- Sync is whole-document with a version check (`src/lib/sync.ts`, rules in
+  `src/lib/syncLogic.ts`). Local changes upload about ten seconds after the last change.
+  If a device and the account both hold changes the other has not seen, the app asks which
+  copy to keep. It never merges and never silently replaces a copy that has progress.
 
 ## Content authoring
 

@@ -1,9 +1,10 @@
 "use client";
 
-import { Download, Monitor, Moon, Sun, Trash2, Upload } from "lucide-react";
+import { Download, Monitor, Moon, Sun, Trash2, Upload, UserRound } from "lucide-react";
 import { useRef, useState } from "react";
 import clsx from "clsx";
 import { useStore } from "@/lib/store";
+import { useSync } from "@/lib/sync";
 import { Button } from "@/components/ui/Button";
 import { Card, CardBody, CardHeader } from "@/components/ui/Card";
 import { Dialog } from "@/components/ui/Dialog";
@@ -17,6 +18,8 @@ export default function SettingsPage() {
   const importJSON = useStore((s) => s.importJSON);
   const resetAll = useStore((s) => s.resetAll);
   const attempts = useStore((s) => s.attempts.length);
+  const accountEmail = useSync((s) => s.email);
+  const accountsAvailable = useSync((s) => s.status !== "unavailable");
   const [confirmReset, setConfirmReset] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
@@ -41,7 +44,7 @@ export default function SettingsPage() {
 
   return (
     <div className="mx-auto max-w-3xl">
-      <PageHeader eyebrow="Settings" title="Make it yours" description="Everything is stored in this browser. Export regularly if you switch machines." />
+      <PageHeader eyebrow="Settings" title="Make it yours" description={accountEmail ? "Progress is stored in this browser and synced to your account." : "Everything is stored in this browser. Sign in from the Account page to sync it across devices, or export a file."} />
 
       <div className="space-y-5">
         <Card>
@@ -141,7 +144,7 @@ export default function SettingsPage() {
         </Card>
 
         <Card>
-          <CardHeader title="Your data" subtitle={`${attempts} attempts stored locally in IndexedDB (with a localStorage fallback).`} />
+          <CardHeader title="Your data" subtitle={`${attempts} attempts stored locally in IndexedDB (with a localStorage fallback)${accountEmail ? `, synced to ${accountEmail}` : ""}.`} />
           <CardBody>
             <div className="flex flex-wrap gap-2">
               <Button variant="secondary" onClick={doExport} leftIcon={<Download size={16} />}>
@@ -161,6 +164,11 @@ export default function SettingsPage() {
                   e.target.value = "";
                 }}
               />
+              {accountsAvailable && (
+                <Button variant="secondary" href="/account" leftIcon={<UserRound size={16} />}>
+                  {accountEmail ? "Account and sync" : "Sign in to sync"}
+                </Button>
+              )}
               <Button variant="danger" onClick={() => setConfirmReset(true)} leftIcon={<Trash2 size={16} />}>
                 Reset everything
               </Button>
@@ -175,7 +183,7 @@ export default function SettingsPage() {
       </div>
 
       <Dialog open={confirmReset} onClose={() => setConfirmReset(false)} title="Reset all progress?" size="sm">
-        <p className="text-sm text-muted">This deletes every attempt, note, mock result and setting on this device. Export first if there is any chance you want it back.</p>
+        <p className="text-sm text-muted">This deletes every attempt, note, mock result and setting on this device{accountEmail ? ", and the reset then syncs to your account, so it is erased there too" : ""}. Export first if there is any chance you want it back.</p>
         <div className="mt-5 flex justify-end gap-2">
           <Button variant="secondary" onClick={() => setConfirmReset(false)}>
             Keep my data

@@ -5,11 +5,13 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ChevronRight, Flame, Menu, Trophy, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { Fragment, useEffect, useMemo, useState, type ReactNode } from "react";
 import { Logo } from "@/components/Logo";
 import { useStore } from "@/lib/store";
+import { useSync } from "@/lib/sync";
 import { ACHIEVEMENT_BY_ID } from "@/lib/achievements";
 import { PageSkeleton } from "@/components/ui/EmptyState";
+import { SyncBadge, SyncHost } from "@/components/SyncHost";
 import { ALL_NAV_ITEMS, NAV } from "./nav";
 import { daysBetween, todayString } from "@/lib/schedule";
 
@@ -186,6 +188,8 @@ export function AppShell({ children }: { children: ReactNode }) {
   const setHydrated = useStore((s) => s.setHydrated);
   const pathname = usePathname();
   const [drawer, setDrawer] = useState(false);
+  // Pages keep drafts in their own state; remount them when synced data replaces what they loaded.
+  const dataEpoch = useSync((s) => s.epoch);
   useGoShortcuts();
 
   // Safety net: never leave the app stuck on the skeleton if storage misbehaves.
@@ -216,6 +220,9 @@ export function AppShell({ children }: { children: ReactNode }) {
             <div className="min-h-0 flex-1 overflow-y-auto pr-1">
               <NavLinks />
             </div>
+            <div className="mt-3">
+              <SyncBadge />
+            </div>
             <div className="mt-3 px-2 text-[11px] text-faint">
               Press <kbd className="rounded border border-border px-1 font-mono">g</kbd> then a letter to jump.
             </div>
@@ -235,7 +242,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           )}
 
           <main id="main" className={clsx("flex-1", immersive ? "" : "mx-auto w-full max-w-6xl px-4 py-6 md:px-8 md:py-8")}>
-            {hydrated ? children : <PageSkeleton />}
+            {hydrated ? <Fragment key={dataEpoch}>{children}</Fragment> : <PageSkeleton />}
           </main>
         </div>
       </div>
@@ -265,11 +272,15 @@ export function AppShell({ children }: { children: ReactNode }) {
               <div className="min-h-0 flex-1 overflow-y-auto">
                 <NavLinks onNavigate={() => setDrawer(false)} />
               </div>
+              <div className="mt-3">
+                <SyncBadge onNavigate={() => setDrawer(false)} />
+              </div>
             </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
       <ToastHost />
+      <SyncHost />
     </>
   );
 }

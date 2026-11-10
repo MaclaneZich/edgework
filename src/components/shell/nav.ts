@@ -19,6 +19,7 @@ import {
   Timer,
   TriangleAlert,
   Trophy,
+  UserRound,
   type LucideIcon,
 } from "lucide-react";
 
@@ -74,6 +75,7 @@ export const NAV: NavGroup[] = [
       { href: "/achievements", label: "Achievements", icon: Trophy, key: "a" },
       { href: "/reading", label: "Further Reading", icon: Library, key: "u" },
       { href: "/settings", label: "Settings", icon: Settings, key: "," },
+      { href: "/account", label: "Account", icon: UserRound, key: "y" },
     ],
   },
 ];
